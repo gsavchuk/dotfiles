@@ -1,0 +1,9 @@
+URxvt.depth: 32
+URxvt.background: Black
+URxvt.foreground: White
+URxvt.font: xft:DejaVu Sans Mono:antialias=true:pixelsize=15
+URxvt.boldFont: xft:DejaVu Sans Mono:style=bold:antialias=true:pixelsize=15
+URxvt.perl-ext-common: clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
