@@ -6,9 +6,8 @@
  '(ansi-color-names-vector ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
  '(column-number-mode t)
  '(custom-enabled-themes (quote (wheatgrass)))
- '(tool-bar-mode nil)
-
-)
+ '(menu-bar-mode nil)
+ '(tool-bar-mode nil))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
