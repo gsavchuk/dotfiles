@@ -12,8 +12,13 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 export PATH=$PATH:~/soft/apache-maven-3.0.5/bin
-export EDITOR="emacsclient"
+export EDITOR="emacsclient -c"
 export ALTERNATE_EDITOR=
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
+autoload -U colors
+colors
+alias em='emacsclient -c'
 
 # Snippet from
 # https://wiki.archlinux.org/index.php/Zsh#Key_bindings

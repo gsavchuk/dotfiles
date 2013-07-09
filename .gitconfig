@@ -1,0 +1,12 @@
+[user]
+	name = Gennadiy Savchuk
+	email = gennady.savchuk@gmail.com
+[core]
+	excludesfile = /home/gsavchuk/.gitignore_global
+[credential]
+	helper = cache --timeout=3600
+[push]
+	default = simple
+[alias]
+  # convenient "git review" command alias for posting code reviews
+  review = !`git rev-parse --show-toplevel`/devtools/rm-post-review
