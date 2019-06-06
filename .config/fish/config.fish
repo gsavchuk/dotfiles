@@ -9,3 +9,10 @@ if status --is-login
         exec startx -- -keeptty
     end
 end
+
+if not pgrep -u "$USER" ssh-agent > /dev/null
+  ssh-agent -c > ~/.ssh-agent-thing
+end
+if test "$SSH_AGENT_PID" = ""
+  source ~/.ssh-agent-thing > /dev/null
+end
