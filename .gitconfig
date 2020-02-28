@@ -1,6 +1,4 @@
 [user]
-	name = Gennadiy Savchuk
-	email = gennady.savchuk@gmail.com
 [core]
 	excludesfile = /home/g/.gitignore_global
 [push]
